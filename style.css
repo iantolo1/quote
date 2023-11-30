@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  min-height: 100vh;
+  background-image: url(/photo-1481627834876-b7833e8f5570.avif);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: "Nova Square", sans-serif;
+  font-size: 1.5rem;
+  display: grid;
+  place-items: center;
+}
+.wrapper,
+.title {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 500px;
+}
+.title {
+  background-color: lightgreen;
+}
+.text__two {
+  color: lightgreen;
+  padding: 0.9rem;
+  letter-spacing: 3px;
+}
+.btn {
+  padding: 1rem 5rem;
+  border: none;
+  transition: 0.2s ease-in-out;
+  cursor: pointer;
+}
+.btn:hover {
+  box-shadow: 20px 10px 0px 1px rgba(36, 32, 32, 1);
+}
